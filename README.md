@@ -11,47 +11,58 @@ A tiny set of CSS3 animations for your input checkboxes.
 <b>Installation</b>
 </p>
 <p align="center" style="text-align:center">
-include the `checkbox.css` in your html page
+include the <i>checkbox.css</i> in your html page
 </p>
 
-##### Animations
+<p align="center" style="text-align:center">
+<b>Animations</b>
+</p>
 
-[Hey](#usage)
+Hey
 
-[Away](#usage)
+Away
 
-[Inout](#usage)
+Inout
 
-[Rotate](#usage)
+Rotate
 
-[Yo](#usage)
+Yo
 
-[Roll](#usage)
+Roll
 
-[Up](#usage)
+Up
 
-[Down](#usage)
+Down
 
-[Tv](#usage)
+Tv
 
-[Jump](#usage)
+Jump
 
-[Omg](#usage)
+Omg
 
-[Splash](#usage)
-
-
-
-##### Usage
-
-Just add the `.checkbox-<animation-name>` class to your checkbox, in case of a `splash` animation, it should be:
+Splash
 
 
+
+<p align="center" style="text-align:center">
+
+<b>Usage</b>
+
+</p>
+
+<p align="center" style="text-align:center">
+
+Just add the <i>.checkbox-$animation</i> class to your checkbox, in case of a `splash` animation, it should be:
+
+</p>
+
+<p align="center" style="text-align:center">
 ```html
 
 <input type="checkbox" class="checkbox-splash"/>
 
 ```
+</p>
 
 
 ##### Demo
