@@ -89,6 +89,13 @@ Splash
 <p align="center" style="text-align:center">
 <a href="https://720kb.github.io/checkbox.css">Here</a>
 </p>
+<br/>
+<b>Mantainers</b>
+</p>
+<p align="center" style="text-align:center">
+<a href="http://720kb.net">720kb</a>
+</p>
+<br/>
 <p align="center" style="text-align:center">
 <br/>
 <b>License</b>
@@ -97,4 +104,3 @@ Splash
 <p align="center" style="text-align:center">
 (MIT) read <a href="https://github.com/720kb/checkbox.css/blob/gh-pages/LICENSE.md">LICENSE.md</a>
 </p>
-
