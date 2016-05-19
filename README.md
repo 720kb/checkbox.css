@@ -95,6 +95,6 @@ https://720kb.github.io/checkbox.css
 </p>
 
 <p align="center" style="text-align:center">
-(MIT) read [LICENSE.md](https://github.com/720kb/checkbox.css/blob/gh-pages/LICENSE.md "license")
+(MIT) read <a href="https://github.com/720kb/checkbox.css/blob/gh-pages/LICENSE.md">LICENSE.md</a>
 </p>
 
