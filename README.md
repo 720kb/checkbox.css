@@ -13,7 +13,7 @@ A tiny set of CSS3 animations for your input checkboxes.
 <p align="center" style="text-align:center">
 include the <i>checkbox.css</i> in your html page
 </p>
-
+<br/>
 <p align="center" style="text-align:center">
 <b>Animations</b>
 </p>
@@ -66,7 +66,7 @@ Omg
 Splash
 </p>
 
-
+<br/>
 <p align="center" style="text-align:center">
 
 <b>Usage</b>
@@ -81,7 +81,7 @@ Splash
 
 </p>
 
-
+<br/>
 <p align="center" style="text-align:center">
 
 <b>Demo</b>
@@ -90,7 +90,7 @@ Splash
 <a href="https://720kb.github.io/checkbox.css">Here</a>
 </p>
 <p align="center" style="text-align:center">
-
+<br/>
 <b>License</b>
 </p>
 
