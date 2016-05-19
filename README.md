@@ -52,16 +52,8 @@ Splash
 
 <p align="center" style="text-align:center">
 
-Just add the <i>.checkbox-$animation</i> class to your checkbox, in case of a `splash` animation, it should be:
+<pre><input type="checkbox" class="checkbox-splash"/></pre>
 
-</p>
-
-<p align="center" style="text-align:center">
-```html
-
-<input type="checkbox" class="checkbox-splash"/>
-
-```
 </p>
 
 
