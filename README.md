@@ -7,9 +7,10 @@ A tiny set of CSS3 animations for your input checkboxes.
 
 </p>
 
-<p style="text-align:right">
-
+<p align="right" style="text-align:right">
+<p>
 <b>Installation</b>
+</p>
 
 include the `checkbox.css` in your html page
 </p>
