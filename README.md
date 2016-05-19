@@ -14,16 +14,27 @@ include the `checkbox.css` in your html page
 #### Animations
 
 [Hey](#usage)
+
 [Away](#usage)
+
 [Inout](#usage)
+
 [Rotate](#usage)
+
 [Yo](#usage)
+
 [Roll](#usage)
+
 [Up](#usage)
+
 [Down](#usage)
+
 [Tv](#usage)
+
 [Jump](#usage)
+
 [Omg](#usage)
+
 [Splash](#usage)
 
 
