@@ -1,0 +1,11 @@
+{
+  "name": "checkbox.css",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "45kb <filippo.oretti@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/45kb/checkbox.css",
+  "private": true
+}
