@@ -18,30 +18,53 @@ include the <i>checkbox.css</i> in your html page
 <b>Animations</b>
 </p>
 
+<p align="center" style="text-align:center">
 Hey
+</p>
 
+<p align="center" style="text-align:center">
 Away
+</p>
 
+<p align="center" style="text-align:center">
 Inout
+</p>
 
+<p align="center" style="text-align:center">
 Rotate
+</p>
 
+<p align="center" style="text-align:center">
 Yo
+</p>
 
+<p align="center" style="text-align:center">
 Roll
+</p>
 
+<p align="center" style="text-align:center">
 Up
+</p>
 
+<p align="center" style="text-align:center">
 Down
+</p>
 
+<p align="center" style="text-align:center">
 Tv
+</p>
 
+<p align="center" style="text-align:center">
 Jump
+</p>
 
+<p align="center" style="text-align:center">
 Omg
+</p>
 
+<p align="center" style="text-align:center">
 Splash
-
+</p>
 
 
 <p align="center" style="text-align:center">
@@ -59,11 +82,19 @@ Splash
 </p>
 
 
-##### Demo
+<p align="center" style="text-align:center">
 
+<b>Demo</b>
+</p>
+<p align="center" style="text-align:center">
 https://720kb.github.io/checkbox.css
+</p>
+<p align="center" style="text-align:center">
 
-##### License
+<b>License</b>
+</p>
 
+<p align="center" style="text-align:center">
 (MIT) read [LICENSE.md](https://github.com/720kb/checkbox.css/blob/gh-pages/LICENSE.md "license")
+</p>
 
