@@ -90,6 +90,8 @@ Splash
 <a href="https://720kb.github.io/checkbox.css">Here</a>
 </p>
 <br/>
+
+<p align="center" style="text-align:center">
 <b>Mantainers</b>
 </p>
 <p align="center" style="text-align:center">
