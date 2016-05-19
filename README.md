@@ -8,9 +8,9 @@ A tiny set of CSS3 animations for your input checkboxes.
 </p>
 
 <p align="center" style="text-align:center">
-##### Installation
-
-
+<b>Installation</b>
+</p>
+<p align="center" style="text-align:center">
 include the `checkbox.css` in your html page
 </p>
 
