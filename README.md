@@ -51,3 +51,8 @@ include the `checkbox.css` in your html page
 #### Demo
 
 https://720kb.github.io/checkbox.css
+
+#### License
+
+(MIT) read [LICENSE.md](https://github.com/720kb/checkbox.css/blob/gh-pages/LICENSE.md "license")
+
