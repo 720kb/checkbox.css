@@ -9,17 +9,32 @@ A tiny set of CSS3 animations for your input checkboxes.
 
 #### Installation
 
-include the checkbox.css in your html page
+include the `checkbox.css` in your html page
 
 #### Animations
 
-list...
+[Hey](#usage)
+[Away](#usage)
+[Inout](#usage)
+[Rotate](#usage)
+[Yo](#usage)
+[Roll](#usage)
+[Up](#usage)
+[Down](#usage)
+[Tv](#usage)
+[Jump](#usage)
+[Omg](#usage)
+[Splash](#usage)
 
 
 
 #### Usage
 
-include the checkbox.css in your html page
+```html
+
+<input type="checkbox" class="checkbox-splash"/>
+
+```
 
 
 #### Demo
