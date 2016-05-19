@@ -41,6 +41,9 @@ include the `checkbox.css` in your html page
 
 #### Usage
 
+Just add the `checkbox-:animation-name:` class to your checkbox, in case of a `splash` animation, it should be:
+
+
 ```html
 
 <input type="checkbox" class="checkbox-splash"/>
