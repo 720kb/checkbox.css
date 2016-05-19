@@ -52,7 +52,9 @@ Splash
 
 <p align="center" style="text-align:center">
 
-<pre><input type="checkbox" class="checkbox-splash"/></pre>
+<code>
+<input type="checkbox" class="checkbox-splash"/>
+</code>
 
 </p>
 
