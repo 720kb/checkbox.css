@@ -7,7 +7,7 @@ A tiny set of CSS3 animations for your input checkboxes.
 
 </p>
 
-
+<p align="center" style="text-align:center">
 ##### Installation
 
 
