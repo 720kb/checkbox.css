@@ -7,15 +7,14 @@ A tiny set of CSS3 animations for your input checkboxes.
 
 </p>
 
-<p align="right" style="text-align:right">
-<p>
-<b>Installation</b>
-</p>
+
+##### Installation
+
 
 include the `checkbox.css` in your html page
 </p>
 
-#### Animations
+##### Animations
 
 [Hey](#usage)
 
@@ -43,7 +42,7 @@ include the `checkbox.css` in your html page
 
 
 
-#### Usage
+##### Usage
 
 Just add the `.checkbox-<animation-name>` class to your checkbox, in case of a `splash` animation, it should be:
 
@@ -55,11 +54,11 @@ Just add the `.checkbox-<animation-name>` class to your checkbox, in case of a `
 ```
 
 
-#### Demo
+##### Demo
 
 https://720kb.github.io/checkbox.css
 
-#### License
+##### License
 
 (MIT) read [LICENSE.md](https://github.com/720kb/checkbox.css/blob/gh-pages/LICENSE.md "license")
 
