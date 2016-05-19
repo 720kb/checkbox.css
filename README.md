@@ -76,7 +76,7 @@ Splash
 <p align="center" style="text-align:center">
 
 <code style="color:royalblue">
-&#x3C;<b>input</b> <b>type="checkbox" class="checkbox-splash"/&#x3E;
+<b>&#x3C;input</b> type="checkbox" class="<b>checkbox-splash</b>"<b>/&#x3E;</b>
 </code>
 
 </p>
