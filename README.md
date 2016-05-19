@@ -87,7 +87,7 @@ Splash
 <b>Demo</b>
 </p>
 <p align="center" style="text-align:center">
-https://720kb.github.io/checkbox.css
+<a href="https://720kb.github.io/checkbox.css">Here</a>
 </p>
 <p align="center" style="text-align:center">
 
