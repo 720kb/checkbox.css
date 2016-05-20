@@ -1,5 +1,5 @@
 /* Checkbox.CSS
-* v1.0.0
+* v1.1.0
 * Copyright © 2016 - 720kb
 * Github: http://github.com/720kb/checkbox.css */
 
@@ -27,6 +27,88 @@
 @mixin filter($filters) {
   -webkit-filter: $filters;
   filter: $filters;
+}
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+@include keyframes(hey) {
+  50% {
+    @include transform(scale(1.5));
+    @include filter(blur(20px));
+  }
+  90% {
+    @include filter(blur(40px));
+  }
+  100% {
+    transform: none;
+    filter:none;
+  }
+}
+
+@include keyframes(omg) {
+  59% {
+    @include transform(translateY(-4px))
+  }
+  60% {
+
+    @include transform(translateX(-8px) translateY(12px))
+  }
+
+  70% {
+
+    @include transform(translateY(-8px))
+  }
+  80% {
+
+    @include transform(translateX(8px))
+  }
+  90% {
+
+      @include transform(scale(.4))
+  }
+  100% {
+    transform: none;
+  }
+}
+@include keyframes(tv) {
+  50% {
+    @include transform(scale(.6) rotateY(100deg) skew(45deg));
+  }
+  70% {
+    @include transform(scale(.8) rotateY(200deg) skew(70deg));
+  }
+  90% {
+    @include transform(scale(1) rotateY(500deg) skew(20deg));
+  }
+  100% {
+    transform:none;
+  }
+}
+@include keyframes(jump) {
+  50% {
+    @include transform(scale(.6) translateY(-10px));
+  }
+  70% {
+    @include transform(scale(.8) translateY(-5px));
+  }
+  90% {
+    @include transform(scale(1) translateY(0));
+  }
+  100% {
+    transform:none;
+  }
 }
 
 .checkbox-rotate {
@@ -80,26 +162,23 @@
   }
 }
 .checkbox-hey {
-  &:active {
-    @include filter(blur(40px));
-    @include transition(all, .15s, linear);
+  &:checked {
+    @include animation(hey, .8s, linear);
   }
 }
+
 .checkbox-omg {
-  &:active {
-    @include transform(rotateY(200deg) scale(1.6));
-    @include transition(all, .2s, linear);
+  &:checked {
+    @include animation(omg, .5s, linear);
   }
 }
 .checkbox-jump {
-  &:active {
-    @include transform(scale(1.3) translateY(-8px));
-    @include transition(all, .2s, linear);
+  &:checked {
+    @include animation(jump, .35s, linear)
   }
 }
 .checkbox-tv {
-  &:active {
-    @include transform(scale(1.6) rotateY(500deg) skew(90deg));
-    @include transition(all, .2s, linear);
+  &:checked {
+    @include animation(tv, .3s, linear);
   }
 }
