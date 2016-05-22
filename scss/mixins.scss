@@ -1,0 +1,39 @@
+@mixin animation($animation, $speed, $method) {
+  -webkit-animation: $animation $speed $method;
+  -moz-animation: $animation $speed $method;
+  -ms-animation: $animation $speed $method;
+  animation: $animation $speed $method;
+}
+@mixin transform($transformation) {
+  -webkit-transform: $transformation;
+  -moz-transform: $transformation;
+  -o-transform: $transformation;
+  -ms-transform: $transformation;
+  transform: $transformation;
+}
+
+@mixin transition($where, $speed, $method ) {
+  -webkit-transition: $where $speed $method;
+  -moz-transition: $where $speed $method;
+  -o-transition: $where $speed $method;
+  -ms-transition: $where $speed $method;
+  transition: $where $speed $method;
+}
+@mixin filter($filters) {
+  -webkit-filter: $filters;
+  filter: $filters;
+}
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}

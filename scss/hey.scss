@@ -1,0 +1,21 @@
+@import 'mixins.scss';
+
+@include keyframes(hey) {
+  50% {
+    @include transform(scale(1.5));
+    @include filter(blur(20px));
+  }
+  90% {
+    @include filter(blur(40px));
+  }
+  100% {
+    transform: none;
+    filter:none;
+  }
+}
+
+.checkbox-hey {
+  &:checked {
+    @include animation(hey, .8s, linear);
+  }
+}

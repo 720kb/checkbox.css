@@ -1,0 +1,22 @@
+@import 'mixins.scss';
+
+@include keyframes(jump) {
+  50% {
+    @include transform(scale(.6) translateY(-10px));
+  }
+  70% {
+    @include transform(scale(.8) translateY(-5px));
+  }
+  90% {
+    @include transform(scale(1) translateY(0));
+  }
+  100% {
+    transform:none;
+  }
+}
+
+.checkbox-jump {
+  &:checked {
+    @include animation(jump, .35s, linear)
+  }
+}
