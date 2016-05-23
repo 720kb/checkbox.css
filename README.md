@@ -11,7 +11,7 @@ A tiny set of CSS3 animations for your input checkboxes.
 <b>Installation</b>
 </p>
 <p align="center" style="text-align:center">
-include the <i>/dist/checkbox.min.css</i> in your html page
+Include the <i>dist/checkbox.min.css</i> in your html page
 </p>
 <br/>
 <p align="center" style="text-align:center">
