@@ -91,7 +91,8 @@ Splash
 <p align="center" style="text-align:center">
 	
     <a href="http://caniuse.com/#feat=transforms2d" target="_blank">2D Transform</a>
-    
+ </p>
+ <p align="center" style="text-align:center">   
     <a href="http://caniuse.com/#feat=css-animation" target="_blank">Keyframes</a>
     
 </p>
