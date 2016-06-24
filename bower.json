@@ -12,7 +12,12 @@
     "*.png",
     "*.jpg",
     "*.log",
-    ".gitignore"
+    ".gitignore",
+    "conf",
+    "demo",
+    ".sass-lint.yml",
+    "lib",
+    "gulpfile.js"
   ],
   "description": "Tiny set of CSS3 animations for your checkboxes.",
   "authors": [

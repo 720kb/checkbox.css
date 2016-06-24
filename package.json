@@ -11,9 +11,7 @@
     "checkboxes"
   ],
   "files": [
-    "dist/checkbox.min.css",
-    "dist/checkbox.css",
-    "dist/checkbox.css.map"
+    "dist/"
   ],
   "repository": {
     "type": "git",
@@ -24,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/720kb/checkbox.css/issues"
   },
-  "homepage": "https://github.com/720kb/checkbox.css"
+  "homepage": "https://github.com/720kb/checkbox.css",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.1"
+  }
 }

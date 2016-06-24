@@ -1,0 +1,5 @@
+{
+  "lib": "lib/",
+  "dist": "dist/",
+  "scss": "lib/scss/"
+}
