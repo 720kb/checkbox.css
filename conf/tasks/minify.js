@@ -5,12 +5,12 @@
 
   const gulp = require('gulp')
     , paths = require('../paths.json')
-    , minify = require('gulp-minify-css')
+    , minify = require('gulp-cssmin')
     , rename = require('gulp-rename');
 
 gulp.task('minify', function minify() {
-    gulp.src(`${paths.dist}/*.css`)
-        .pipe(minify({'keepBreaks': true}))
+    return gulp.src(`${paths.dist}**/*.css`)
+        .pipe(minify())
         .pipe(rename({
             'suffix': '.min'
         }))

@@ -4,7 +4,7 @@
 
 
   const gulp = require('gulp')
-    , runSequence = require('run-sequence');
+    , runSequence = require('run-sequence').use(gulp);
 
 
   gulp.task('build', function(callback) {

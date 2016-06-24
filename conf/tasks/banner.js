@@ -5,5 +5,4 @@
 
   const gulp = require('gulp');
 
-  return true;
 }());
