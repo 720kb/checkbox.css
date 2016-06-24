@@ -2,7 +2,7 @@
 (function gulpTask() {
   'use strict';
 const gulp = require('gulp')
-    , paths = require('../paths.json')
+    , paths = require('../paths')
     , clean = require('gulp-clean');
 
   gulp.task('finalize', function cleanDist() {

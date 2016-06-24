@@ -3,7 +3,7 @@
   'use strict';
 
   const gulp = require('gulp')
-    , paths = require('../paths.json')
+    , paths = require('../paths')
     , gulpSass = require('gulp-sass');
 
   gulp.task('sass', function sassify() {

@@ -4,7 +4,7 @@
 
 
   const gulp = require('gulp')
-    , paths = require('../paths.json')
+    , paths = require('../paths')
     , minify = require('gulp-cssmin')
     , rename = require('gulp-rename');
 

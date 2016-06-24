@@ -8,6 +8,6 @@
 
 
   gulp.task('build', function(callback) {
-    runSequence('clean','sass','minify','copy', 'finalize');
+    runSequence('clean','sass','minify','banner', 'copy', 'finalize');
   });
 }());

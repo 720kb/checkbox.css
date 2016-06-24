@@ -4,7 +4,7 @@
 
 
   const gulp = require('gulp')
-    , paths = require('../paths.json');
+    , paths = require('../paths');
 
   gulp.task('copy', function copySrc() {
 
