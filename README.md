@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/720kb/checkbox.css/gh-pages/logo.png" width="250"/>
+<img src="http://i.imgur.com/itrD5Oz.png" width="250"/>
 </p>
 <p align="center" style="text-align:center">
 
@@ -95,12 +95,12 @@ Splash
 <i>Depending on:</i>
 </p>
 <p align="center" style="text-align:center">
-	
+
     <a href="http://caniuse.com/#feat=transforms2d" target="_blank">2D Transform</a>
  </p>
  <p align="center" style="text-align:center">   
     <a href="http://caniuse.com/#feat=css-animation" target="_blank">Keyframes</a>
-    
+
 </p>
 
 <br/>
