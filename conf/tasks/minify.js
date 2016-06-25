@@ -14,6 +14,10 @@
           .pipe(minify())
           .pipe(rename(function renameThem(path) {
 
+            if (path.basename !== 'checkbox') {
+              path.dirname = path.basename;
+            }
+
             path.basename += ".min";
           }))
           .pipe(gulp.dest(`${paths.dist}`));
