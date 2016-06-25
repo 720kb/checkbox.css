@@ -1,0 +1,8 @@
+@import 'mixins.scss';
+
+.checkbox-rotate {
+  &:checked {
+    @include transform(rotate(360deg));
+    @include transition(all, .2s, linear);
+  }
+}

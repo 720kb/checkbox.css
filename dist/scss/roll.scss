@@ -1,0 +1,8 @@
+@import 'mixins.scss';
+
+.checkbox-roll {
+  &:checked {
+    @include transform(rotateX(360deg));
+    @include transition(all, .15s, linear);
+  }
+}
