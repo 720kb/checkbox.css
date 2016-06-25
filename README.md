@@ -19,10 +19,8 @@ A tiny set of CSS3 animations for your input checkboxes.
 <p align="center" style="text-align:center">
 Include the <i>dist/css/checkbox.min.css</i> in your html page
 </p>
-<p align="center">
-<small>
-<i>Include `dist/css/yo.min.css` instead, if you want to use only Yo animation, that simple.</i>
-</small>
+<p align="center" style="font-size:12px;">
+<sub><i>Include `dist/css/yo.min.css` instead, if you want to use only Yo animation, that simple.</i></sub>
 </p>
 <br/>
 <p align="center" style="text-align:center">
