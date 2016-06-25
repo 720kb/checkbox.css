@@ -20,6 +20,6 @@
 
             path.basename += ".min";
           }))
-          .pipe(gulp.dest(`${paths.dist}`));
+          .pipe(gulp.dest(`${paths.dist}css`));
       });
 }());

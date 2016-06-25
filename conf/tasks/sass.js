@@ -12,6 +12,6 @@
     .pipe(sourcemaps.init())
     .pipe(gulpSass())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest(paths.dist));
+    .pipe(gulp.dest(`${paths.dist}`));
   });
 }());
