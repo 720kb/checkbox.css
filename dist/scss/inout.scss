@@ -1,0 +1,22 @@
+@import 'mixins.scss';
+
+@include keyframes(inout) {
+  30% {
+    @include transform(scale(1.3));
+  }
+  70% {
+    @include transform(scale(.3));
+  }
+  90% {
+    @include transform(scale(1));
+  }
+  100% {
+    transform:none;
+  }
+}
+
+.checkbox-inout {
+  &:checked {
+    @include animation(inout, .5s, linear)
+  }
+}
