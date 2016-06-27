@@ -1,26 +1,30 @@
-@import 'mixins.scss';
 
-@include keyframes(omg) {
+@keyframes omg {
+
   59% {
-    @include transform(translateY(-4px))
+    transform: translateY(-4px);
   }
+
   60% {
 
-    @include transform(translateX(-8px) translateY(12px))
+    transform: translateX(-8px) translateY(12px);
   }
 
   70% {
 
-    @include transform(translateY(-8px))
+    transform: translateY(-8px);
   }
+
   80% {
 
-    @include transform(translateX(8px))
+    transform: translateX(8px);
   }
+
   90% {
 
-      @include transform(scale(.4))
+    transform: scale(.4);
   }
+
   100% {
     transform: none;
   }
@@ -28,6 +32,6 @@
 
 .checkbox-omg {
   &:checked {
-    @include animation(omg, .5s, linear);
+    animation: omg .5s linear;
   }
 }

@@ -1,8 +1,7 @@
-@import 'mixins.scss';
 
 .checkbox-splash {
   &:active{
-    @include transform(scale(2));
-    @include transition(all, .15s, linear);
+    transform: scale(2);
+    transition: all .15s linear;
   }
 }
