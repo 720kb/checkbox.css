@@ -31,7 +31,7 @@ rules:
   no-misspelled-properties: 1
   no-qualifying-elements: 0
   no-trailing-zero: 1
-  no-transition-all: 1
+  no-transition-all: 0.5
   no-url-protocols: 1
   no-vendor-prefixes: 3
   no-warn: 1

@@ -1,1 +1,1 @@
-.checkbox-down:checked{-webkit-transform:translateY(10px);-moz-transform:translateY(10px);-o-transform:translateY(10px);-ms-transform:translateY(10px);transform:translateY(10px);-webkit-transition:all .15s linear;-moz-transition:all .15s linear;-o-transition:all .15s linear;-ms-transition:all .15s linear;transition:all .15s linear}
+.checkbox-down:checked{-webkit-transform:translateY(10px);transform:translateY(10px);-webkit-transition:all .15s linear;transition:all .15s linear}

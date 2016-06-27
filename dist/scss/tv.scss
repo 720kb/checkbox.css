@@ -1,22 +1,25 @@
-@import 'mixins.scss';
 
-@include keyframes(tv) {
+@keyframes tv {
+
   50% {
-    @include transform(scale(.6) rotateY(100deg) skew(45deg));
+    transform: scale(.6) rotateY(100deg) skew(45deg);
   }
+
   70% {
-    @include transform(scale(.8) rotateY(200deg) skew(70deg));
+    transform: scale(.8) rotateY(200deg) skew(70deg);
   }
+
   90% {
-    @include transform(scale(1) rotateY(500deg) skew(20deg));
+    transform: scale(1) rotateY(500deg) skew(20deg);
   }
+
   100% {
-    transform:none;
+    transform: none;
   }
 }
 
 .checkbox-tv {
   &:checked {
-    @include animation(tv, .3s, linear);
+    animation: tv .3s linear;
   }
 }
