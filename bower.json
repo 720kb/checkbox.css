@@ -17,7 +17,8 @@
     "demo",
     ".sass-lint.yml",
     "lib",
-    "gulpfile.js"
+    "gulpfile.js",
+    "*.md"
   ],
   "description": "Tiny set of CSS3 animations for your checkboxes.",
   "authors": [
