@@ -6,6 +6,6 @@
  * https://github.com/720kb/checkbox.css
  * 
  * MIT license
- * Mon Jun 27 2016
+ * Tue Jun 28 2016
  */
 @-webkit-keyframes inout{30%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(.3);transform:scale(.3)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}@keyframes inout{30%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(.3);transform:scale(.3)}90%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:none;transform:none}}.checkbox-inout:checked{-webkit-animation:inout .5s linear;animation:inout .5s linear}

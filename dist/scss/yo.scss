@@ -1,8 +1,24 @@
+// @keyframes yo {
+//   from {
+//     transform: none;
+//   }
+
+//   to {
+//     transform: rotate(45deg) translateZ(0);
+//   }
+// }
+
+// .checkbox-yo {
+//   &:checked {
+//     animation: yo .15s linear;
+//     animation-fill-mode: forwards;
+//   }
+// }
 
 .checkbox-yo {
-  &:checked {
+  transition: all .15s linear;
 
-    transform: rotate(-45deg);
-    transition: all .15s linear;
+  &:checked {
+    transform: rotate(-45deg) translateZ(0);
   }
 }
