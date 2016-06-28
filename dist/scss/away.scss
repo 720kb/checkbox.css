@@ -1,7 +1,8 @@
 
 .checkbox-away {
+  transition: all .15s linear;
+
   &:checked {
     transform: translateX(-10px);
-    transition: all .15s linear;
   }
 }

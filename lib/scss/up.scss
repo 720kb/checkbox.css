@@ -1,7 +1,8 @@
 
 .checkbox-up {
+  transition: all .15s linear;
+
   &:checked {
     transform: translateY(-10px);
-    transition: all .15s linear;
   }
 }

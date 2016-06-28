@@ -8,4 +8,4 @@
  * MIT license
  * Tue Jun 28 2016
  */
-.checkbox-away:checked{-webkit-transform:translateX(-10px);transform:translateX(-10px);-webkit-transition:all .15s linear;transition:all .15s linear}
+.checkbox-away{-webkit-transition:all .15s linear;transition:all .15s linear}.checkbox-away:checked{-webkit-transform:translateX(-10px);transform:translateX(-10px)}
