@@ -3,8 +3,8 @@
   'use strict';
 
 
-  const gulp = require('gulp')
-    , runSequence = require('run-sequence').use(gulp);
+  const gulp        = require('gulp')
+  ,     runSequence = require('run-sequence').use(gulp);
 
 
   gulp.task('build', function buildEverything() {
