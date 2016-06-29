@@ -2,13 +2,11 @@
 (function gulpTask() {
   'use strict';
 
+  const gulp = require('gulp')
+    , paths = require('../paths')
+    , autoprefixer = require('gulp-autoprefixer');
 
-  const gulp         = require('gulp')
-  ,     paths        = require('../paths')
-  ,     autoprefixer = require('gulp-autoprefixer');
-
-
-  gulp.task('autoprefixer', function(callback) {
+  gulp.task('autoprefixer', function onCallback() {
     return gulp.src(`${paths.dist}*.css`)
       .pipe(autoprefixer())
       .pipe(gulp.dest(`${paths.dist}`));

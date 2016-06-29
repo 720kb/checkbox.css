@@ -2,10 +2,9 @@
 (function gulpTask() {
   'use strict';
 
-
-  const gulp   = require('gulp')
-  ,     paths  = require('../paths')
-  ,     header = require('gulp-header');
+  const gulp = require('gulp')
+    , paths = require('../paths')
+    , header = require('gulp-header');
 
   gulp.task('banner', function bannerify() {
     return gulp.src(`${paths.dist}**/*.min.css`)
