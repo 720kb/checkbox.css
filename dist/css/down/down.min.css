@@ -6,6 +6,6 @@
  * https://github.com/720kb/checkbox.css
  * 
  * MIT license
- * Mon Jun 27 2016
+ * Tue Jun 28 2016
  */
-.checkbox-down:checked{-webkit-transform:translateY(10px);transform:translateY(10px);-webkit-transition:all .15s linear;transition:all .15s linear}
+.checkbox-down{-webkit-transition:all .15s linear;transition:all .15s linear}.checkbox-down:checked{-webkit-transform:translateY(10px);transform:translateY(10px)}

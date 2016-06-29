@@ -3,9 +3,9 @@
   'use strict';
 
 
-  const gulp = require('gulp')
-    , paths = require('../paths')
-    , autoprefixer = require('gulp-autoprefixer');
+  const gulp         = require('gulp')
+  ,     paths        = require('../paths')
+  ,     autoprefixer = require('gulp-autoprefixer');
 
 
   gulp.task('autoprefixer', function(callback) {

@@ -1,8 +1,7 @@
-
 .checkbox-yo {
-  &:checked {
+  transition: all .15s linear;
 
-    transform: rotate(-45deg);
-    transition: all .15s linear;
+  &:checked {
+    transform: rotate(-45deg) translateZ(0);
   }
 }

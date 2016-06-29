@@ -4,9 +4,9 @@
 
 
   const gulp = require('gulp')
-    , paths = require('../paths')
-    , minify = require('gulp-cssmin')
-    , rename = require('gulp-rename');
+  , paths    = require('../paths')
+  , minify   = require('gulp-cssmin')
+  , rename   = require('gulp-rename');
 
     gulp.task('minify', function onMinifyCss() {
 
