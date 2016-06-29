@@ -7,9 +7,10 @@
     , colors = require('colors')
     , watch = require('gulp-watch');
 
-  gulp.task('start', function onWatch() {
+  gulp.task('start', ['build'], function onWatch() {
     gulp.watch(`${paths.lib}scss/*`, ['build']).on('change', function changed(e) {
-      console.log(`Building new dist: \n`.bold.green + `└─ file was modified: ${e.path}`.yellow);
+      console.log(`⚙  Building new dist: \n`.bold.yellow + `    └─ file was modified: ${e.path}`.white);
     });
   });
+
 }());
