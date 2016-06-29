@@ -6,6 +6,12 @@ Install deps
 npm install
 ```
 
+Develop
+
+```bash
+gulp start
+```
+
 Build dist
 
 ```bash

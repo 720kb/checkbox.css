@@ -1,7 +1,8 @@
 /*global require*/
 (function gulpTask() {
   'use strict';
-const gulp = require('gulp')
+
+  const gulp = require('gulp')
     , paths = require('../paths')
     , clean = require('gulp-clean');
 

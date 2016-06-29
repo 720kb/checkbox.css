@@ -3,9 +3,9 @@
   'use strict';
 
 
-const gulp = require('gulp')
-, paths    = require('../paths')
-, clean    = require('gulp-clean');
+  const gulp = require('gulp')
+  , paths    = require('../paths')
+  , clean    = require('gulp-clean');
 
   gulp.task('clean', function cleanDist() {
   	return gulp.src(`${paths.dist}`, {'read': false})
