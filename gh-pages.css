@@ -37,3 +37,11 @@ pre {
 .color-blue{
   color: #0060ff;
 }
+
+label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
