@@ -1,8 +1,0 @@
-@import 'mixins.scss';
-
-.checkbox-away {
-  &:checked {
-    @include transform(translateX(-10px));
-    @include transition(all, .15s, linear);
-  }
-}

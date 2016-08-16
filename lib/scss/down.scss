@@ -1,8 +1,0 @@
-@import 'mixins.scss';
-
-.checkbox-down {
-  &:checked {
-    @include transform(translateY(10px));
-    @include transition(all, .15s, linear);
-  }
-}

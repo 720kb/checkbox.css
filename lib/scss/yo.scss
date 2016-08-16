@@ -1,9 +1,0 @@
-@import 'mixins.scss';
-
-.checkbox-yo {
-  &:checked {
-
-    @include transform(rotate(-45deg));
-    @include transition(all, .15s, linear);
-  }
-}
