@@ -3,7 +3,7 @@
 </p>
 <p align="center" style="text-align:center">
 
-A tiny set of CSS3 animations for your input checkboxes.
+A tiny set of CSS3 animations meant for your checkbox inputs.
 
 </p>
 </br>
