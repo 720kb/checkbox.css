@@ -6,8 +6,8 @@
 A tiny set of CSS3 animations meant for your checkbox inputs.
 
 </p>
-<p>
-	... for radio inputs check out [radiobox.css](https://github.com/720kb/radiobox.css)
+<p align="center">
+	... and for radio inputs check out (radiobox.css)[https://github.com/720kb/radiobox.css]
 </p>
 </br>
 <p align="center" style="text-align:center">
