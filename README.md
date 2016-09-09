@@ -6,6 +6,9 @@
 A tiny set of CSS3 animations meant for your checkbox inputs.
 
 </p>
+<p>
+	... for radio inputs check out [radiobox.css](https://github.com/720kb/radiobox.css)
+</p>
 </br>
 <p align="center" style="text-align:center">
 <a href="https://gitter.im/720kb/checkbox.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank">
