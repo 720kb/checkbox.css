@@ -9,6 +9,11 @@ A tiny set of CSS3 animations meant for your checkbox inputs.
 <p align="center">
 <sub>	... and for radio inputs check out <a href="https://github.com/720kb/radiobox.css">radiobox.css</a></sub>
 </p>
+<p align="center">
+	<sub style="font-size:12px;">
+	... and for super powers check out <a style="font-size:12px;" href="https://github.com/720kb/checked.css">checked.css</a>
+	</sub>
+</p>
 </br>
 <p align="center" style="text-align:center">
 <a href="https://gitter.im/720kb/checkbox.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank">
