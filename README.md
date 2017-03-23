@@ -1,25 +1,29 @@
 <p align="center">
 <img src="http://i.imgur.com/itrD5Oz.png" width="250"/>
 </p>
+
 <p align="center" style="text-align:center">
-
-A tiny set of CSS3 animations meant for your checkbox inputs.
-
+<b>A tiny set of CSS3 animations meant for your checkbox inputs.</b>
 </p>
+
 <p align="center">
 <sub>	... and for radio inputs check out <a href="https://github.com/720kb/radiobox.css">radiobox.css</a></sub>
 </p>
+
 <p align="center">
 	<sub style="font-size:12px;">
 	... and for super powers check out <a style="font-size:12px;" href="https://github.com/720kb/checked.css">checked.css</a>
 	</sub>
 </p>
+
 </br>
+
 <p align="center" style="text-align:center">
 <a href="https://gitter.im/720kb/checkbox.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank">
 <img src="https://badges.gitter.im/Join%20Chat.svg"/>
 </a>
 </p>
+
 <br/>
 <p align="center" style="text-align:center">
 <b>Installation</b>
@@ -84,10 +88,9 @@ Splash
 </p>
 
 <br/>
+
 <p align="center" style="text-align:center">
-
 <b>Usage</b>
-
 </p>
 
 <p align="center" style="text-align:center">
@@ -99,19 +102,21 @@ Splash
 </p>
 
 <br/>
+
 <p align="center" style="text-align:center">
 <b>Browsers Support</b>
 </p>
+
 <p align="center" style="text-align:center">
 <i>Depending on:</i>
 </p>
-<p align="center" style="text-align:center">
 
+<p align="center" style="text-align:center">
     <a href="http://caniuse.com/#feat=transforms2d" target="_blank">2D Transform</a>
  </p>
+ 
  <p align="center" style="text-align:center">   
     <a href="http://caniuse.com/#feat=css-animation" target="_blank">Keyframes</a>
-
 </p>
 
 <br/>
